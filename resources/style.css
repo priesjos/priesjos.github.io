@@ -1,17 +1,42 @@
 #home-nav {
-    background-color: lightblue;
+    background-color: rgb(143, 18, 112);
     color: red;
 }
 
+#nav-row {
+    padding: 0px 0px 0px;
+}
 .navbar {
     list-style: none;
 }
 
 .nav-link {
     text-decoration: none;
-    color: magenta;
+    color: fuchsia;
+    text-shadow: 2px 3px 4px black;
 }
 
 .nav-link:hover {
     border-bottom: 2px solid magenta;
+    color: red;
+}
+
+#board {
+    border-bottom: 2px solid green;
+    padding: 165px;
+    text-align: center;
+    text-shadow: 4px 3px 2px black;
+    color: lightgrey;
+    background-image: url("mesh.png");
+}
+
+#base-header {
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.base-content {
+    text-align: center;
+    border: 2px solid black;
+    padding: 180px;
 }

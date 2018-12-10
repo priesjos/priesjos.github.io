@@ -16,32 +16,67 @@
     </head>
 
     <body>
-        <section id="home-nav">
+        <div id="home-nav">
+            <!--There's currently an issue with the row class implemented here, as it extends beyond
+            the intended length of the page.-->
+            <div id="nav-row" class="row">
+                <section class="col-5">
+                    <p>NAME HERE</p>
+                </section>
+
+                <section class="col-7">
+                    <ul class="navbar">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">WORKS</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <div id="board">
             <header>
-                <ul class="navbar">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">HOME</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">WORKS</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
-                    </li>
-                </ul>
+                <h1>test</h1>
+                <p>test caption</p>
             </header>
-        </section>
+        </div>
         
-        <section id="board">
-            
-        </section>
-        
-        
+        <div id="base">
+            <div id="base-header">
+                <h1>test</h1>
+            </div>
+
+            <div id="base-body">
+                <div class="row">
+                    <section id="base-box-1" class="col-4 base-content">
+                        <p>test</p>
+                    </section>
+
+                    <section id="base-box-2" class="col-4 base-content">
+                        <p>test</p>
+                    </section>
+
+                    <section id="base-box-3" class="col-4 base-content">
+                        <p>test</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>lorem ipsum lorem ipsum dolor conniptions</p>
+        </footer>
     </body>
 </html>
