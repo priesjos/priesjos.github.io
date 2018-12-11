@@ -1,5 +1,6 @@
-#home-nav {
-    background-color: rgb(143, 18, 112);
+#page-nav {
+    border-top: 15px solid rgb(143, 23, 113);
+    background-color: rgb(230, 203, 223);
     color: red;
 }
 
