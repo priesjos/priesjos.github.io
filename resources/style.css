@@ -5,6 +5,7 @@
 }
 
 #nav-row {
+    position: relative;
     padding: 0px 0px 0px;
 }
 .navbar {
@@ -23,6 +24,7 @@
 }
 
 #board {
+    position: relative;
     border-bottom: 2px solid green;
     padding: 165px;
     text-align: center;
@@ -37,6 +39,7 @@
 }
 
 .base-content {
+    position: relative;
     text-align: center;
     border: 2px solid black;
     padding: 180px;
