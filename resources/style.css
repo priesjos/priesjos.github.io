@@ -33,6 +33,21 @@
     background-image: url("mesh.png");
 }
 
+.jumbotron {
+    background-color: rgb(20, 20, 20, 0.2);
+}
+
+#board-left {
+    float: left;
+    border: 2px solid black;
+    padding: 165px;
+    text-align: center;
+    text-shadow: 4px 3px 2px black;
+    color: lightgrey;
+    background-image: url("mesh.png");
+}
+
+
 #base-header {
     text-align: center;
     border-bottom: 2px solid black;
@@ -46,5 +61,7 @@
 }
 
 #home-footer {
-    color: whitesmoke
+    color: whitesmoke;
+    border: 3px solid red;
+    margin: 50px;
 }
