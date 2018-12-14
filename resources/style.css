@@ -1,6 +1,7 @@
 #page-nav {
-    border-top: 15px solid rgb(143, 23, 113);
-    background-color: rgb(230, 203, 223);
+    border-top: 15px solid rgb(184, 39, 147);
+    border-bottom: 9px solid rgb(184, 39, 147);
+    background-image: linear-gradient(to bottom, rgb(146, 25, 114), purple, rgb(146, 25, 114));
     color: red;
 }
 
@@ -8,6 +9,7 @@
     position: relative;
     padding: 0px 0px 0px;
 }
+
 .navbar {
     list-style: none;
 }
@@ -19,7 +21,7 @@
 }
 
 .nav-link:hover {
-    border-bottom: 2px solid magenta;
+    border-bottom: 0.2px solid magenta;
     color: red;
 }
 
@@ -31,10 +33,13 @@
     text-shadow: 4px 3px 2px black;
     color: lightgrey;
     background-image: url("mesh.png");
+    background-color: rgb(20, 20, 20, 0.2);
 }
 
 .jumbotron {
-    background-color: rgb(20, 20, 20, 0.2);
+    border: 2px red solid;
+    opacity: .83;
+    color: rgb(20, 20, 20, 0.2);
 }
 
 #board-left {
@@ -58,6 +63,10 @@
     text-align: center;
     border: 2px solid black;
     padding: 180px;
+}
+
+#spacing {
+    padding: 40px;
 }
 
 #home-footer {
