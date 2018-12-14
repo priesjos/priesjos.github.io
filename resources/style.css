@@ -44,7 +44,7 @@
 
 #board-left {
     float: left;
-    border: 2px solid black;
+    border-right: 2px solid black;
     padding: 165px;
     text-align: center;
     text-shadow: 4px 3px 2px black;
