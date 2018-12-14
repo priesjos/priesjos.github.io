@@ -1,6 +1,6 @@
 #page-nav {
     border-top: 15px solid rgb(184, 39, 147);
-    border-bottom: 9px solid rgb(184, 39, 147);
+    border-bottom: 3px solid rgb(184, 39, 147);
     background-image: linear-gradient(to bottom, rgb(146, 25, 114), purple, rgb(146, 25, 114));
     color: red;
 }
