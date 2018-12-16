@@ -72,3 +72,18 @@
 #home-footer {
     color: whitesmoke;
 }
+
+.works-content {
+    border-bottom: 2px solid black;
+}
+
+.works-header {
+    text-align: center;
+    border: 2px solid black;
+    padding: 50px;
+}
+
+#art-carousel {
+    text-align: center;
+    background-color: black;
+}
