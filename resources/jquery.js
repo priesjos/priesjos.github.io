@@ -1,4 +1,15 @@
 $(document).ready(function(){
+    var x = 20
+    var min = 1350
+    var window_width = $( window ).width()
+
+    $( window ).resize(function() {
+        if (window_width < min) {
+            $("header").text("help me");
+            $("div").removeClass(".board-left");
+            $("div").addClass(".board");
+        }
+    });
 
     $("#base-box-1").mouseenter(function(){
         animateFromTop("#base-box-1", "40");
@@ -23,8 +34,9 @@ $(document).ready(function(){
     $("#base-box-3").mouseleave(function(){
         animateFromTop("#base-box-3", "-0");
     });
-    
-})
+});
+
+
 
 function animateFromTop(content, amount){
     $(content).animate({top: amount});
