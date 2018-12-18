@@ -11,11 +11,12 @@
 }
 
 #nav-row {
-    position: relative;
+    position: sticky;
     padding: 0px 0px 0px;
 }
 
 .navbar {
+    position: sticky;
     list-style: none;
 }
 
@@ -53,11 +54,8 @@
 }
 
 #board-left {
-    float: left;
-    border-right: 2px solid black;
     padding: 165px;
-    text-align: center;
-    text-shadow: 4px 3px 2px black;
+    text-shadow: 8px 3px 2px black;
     color: lightgrey;
     background-image: url("mesh.png");
 }
@@ -71,7 +69,8 @@
     position: relative;
     text-align: center;
     border: 2px solid black;
-    padding: 180px;
+    width: 75%;
+    padding: 130px;
 }
 
 .spacing {
@@ -80,6 +79,8 @@
 
 .page-footer {
     color: whitesmoke;
+    background-color: black;
+    padding: 10px 0px 10px 15px;
 }
 
 .works-content {
@@ -105,4 +106,14 @@
 
 #songs-table {
     text-align: center;
+}
+
+.contact-content {
+    padding: 30px;
+}
+
+#email-list {
+    position: absolute;
+    justify-content: center;
+    padding: 50px;
 }
