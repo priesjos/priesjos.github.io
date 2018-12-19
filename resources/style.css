@@ -69,8 +69,17 @@
     position: relative;
     text-align: center;
     border: 2px solid black;
-    width: 75%;
-    padding: 130px;
+    width: 125%;
+    padding: 150px 70px 120px;
+}
+
+.notVisible {
+    font-size: 0.8em;
+    display: none;
+}
+
+#home-spacing {
+    padding: 50px;
 }
 
 .spacing {
@@ -90,6 +99,7 @@
 .works-header {
     text-align: center;
     border: 2px solid black;
+    background-image: linear-gradient(to bottom, antiquewhite, white, silver);
     padding: 50px;
 }
 
@@ -99,7 +109,8 @@
 }
 
 .code-tab {
-    border: 2px solid rgb(228, 227, 227);
+    border-right: 2px solid black;
+    border-left: 2px solid black;
     text-align: center;
     float: left;
 }
