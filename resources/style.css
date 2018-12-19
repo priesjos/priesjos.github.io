@@ -24,6 +24,8 @@
     text-decoration: none;
     color: fuchsia;
     text-shadow: 2px 3px 4px black;
+    font-size: 1.1em;
+    font-family: 'Major Mono Display', monospace;
 }
 
 .nav-link:hover {
@@ -39,6 +41,7 @@
     text-shadow: 4px 3px 2px black;
     color: lightgrey;
     background-image: url("mesh.png");
+    background-blend-mode: darken;
     background-color: rgb(20, 20, 20, 0.2);
 }
 
@@ -71,6 +74,8 @@
     border: 2px solid black;
     width: 125%;
     padding: 150px 70px 120px;
+    font-size: 1.2em;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .notVisible {
@@ -92,6 +97,16 @@
     padding: 10px 0px 10px 15px;
 }
 
+.menuChoices {
+    font-size: 1.2em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.aboutContent {
+    font-size: 1.2em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .works-content {
     border-bottom: 2px solid black;
 }
@@ -101,6 +116,8 @@
     border: 2px solid black;
     background-image: linear-gradient(to bottom, antiquewhite, white, silver);
     padding: 50px;
+    font-size: 1.7em;
+    font-family: 'Major Mono Display', monospace;
 }
 
 #art-carousel {
@@ -112,11 +129,13 @@
     border-right: 2px solid black;
     border-left: 2px solid black;
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
     float: left;
 }
 
 #songs-table {
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .contact-content {
@@ -127,4 +146,6 @@
     position: absolute;
     justify-content: center;
     padding: 50px;
+    font-size: 1.4em;
+    font-family: 'Source Sans Pro', sans-serif;
 }

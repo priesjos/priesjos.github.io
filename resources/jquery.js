@@ -1,16 +1,4 @@
 $(document).ready(function(){
-    var x = 20
-    var min = 1350
-    var window_width = $( window ).width()
-
-    $( window ).resize(function() {
-        if (window_width < min) {
-            $("header").text("help me");
-            $("div").removeClass(".board-left");
-            $("div").addClass(".board");
-        }
-    });
-
     $("#base-box-1").mouseenter(function(){
         animateFromTop("#base-box-1", "40");
         $("#first-notVis").fadeIn();
